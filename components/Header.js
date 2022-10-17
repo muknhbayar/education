@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="flex-shrink-0 flex items-center">
                   <style dangerouslySetInnerHTML={{ __html: "" }} />
                   <a href="/" className="pr-3 py-2 rounded-md font-medium flex items-center text-lg" aria-current="page" >
-                    <img src="/img/logo.png" className="mr-3" alt style={{ width: 40 }} /> ONLINE LEARN </a>
+                    <img src="/assets/img/logo.png" className="mr-3" alt style={{ width: 40 }} /> TMOTIE </a>
                 </div>
                 <div className="hidden md:flex sm:ml-6 flex items-center">
                   <div className="flex space-x-4">
@@ -52,8 +52,8 @@ const Header = () => {
               </div>
               <div id="mdb-5-search-container" className="hidden lg:block">
                 <form>
-                  <style dangerouslySetInnerHTML={{__html: "\n #mdb-5-search-input:focus-within {\n outline: 1px solid hsl(222, 14.1%, 72.2%) !important;"}}/>
-                  <input id="mdb-5-search-input" autoComplete="off" type="search" className="rounded-lg w-100 p-2 mr-2 bg-gray-100" placeholder='Search (ctrl + "/")'/>
+                  <style dangerouslySetInnerHTML={{__html: "\n #mdb-5-search-input:focus-within {\n outline: 2px solid hsl(280, 100%, 84%) !important;"}}/>
+                  <input id="mdb-5-search-input" autoComplete="off" type="search" className="rounded-xl md:w-[350px] xl:w-[500px] border border-blue-300 p-2 mr-2 bg-gray-100" placeholder='Хайх үгээ бичнэ үү ...'/>
                   <span className="input-group-text border-0"> <i className="fas fa-search text-gray-400" id="mdb-5-search-icon"/> </span>
                 </form>
                 <div id="mdb-5-search-dropdown" className="rounded shadow-md hidden p-2"
@@ -73,7 +73,7 @@ const Header = () => {
           </div>
         </nav>
 
-        <nav className="navbar navbar-expand-lg shadow-xl py-2 bg-white relative flex items-center w-full justify-between">
+        {/* <nav className="navbar navbar-expand-lg shadow-xl py-2 bg-white relative flex items-center w-full justify-between">
     <div className="px-6 w-full flex flex-wrap items-center justify-between">
       <div className="flex items-center">
         <button className="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY" aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,23 +100,23 @@ const Header = () => {
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> */}
         {/* Navbar */}
         {/* Background image */}
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
-            backgroundPosition: "50%",
+            backgroundPosition: "100%",
             backgroundImage:
-              'url("https://mdbcdn.b-cdn.net/img/new/slides/146.webp")',
-            height: 350,
+              'url("/assets/img/banner.png")',
+            height: 600,
           }}
         >
           <div
             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.75)" }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
           >
-            <div className="flex justify-center items-center h-full">
+            {/* <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
                 <h1 className="text-5xl font-bold mt-0 mb-6">Heading</h1>
                 <h3 className="text-3xl font-bold mb-8">Subeading</h3>
@@ -129,7 +129,7 @@ const Header = () => {
                   Get started
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* Background image */}

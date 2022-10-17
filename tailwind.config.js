@@ -14,6 +14,11 @@ module.exports = {
       serif: ['Roboto', 'serif'],
     },
     extend: {
+
+      colors: {
+       
+
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
@@ -24,6 +29,12 @@ module.exports = {
     },
    
   },
+
+  variants: {
+    backgroundColor:["responsive", "hover", "focus", "active"],
+    display:["responsive", "group-hover"],
+  },
+
   plugins: [
     "tw-elements/dist/plugin",
   ],
