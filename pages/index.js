@@ -3,10 +3,12 @@ import Categories from '../components/Categories';
 import Header from '../components/Header';
 import Newcourses from '../components/Newcourses';
 import Post from '../components/Post';
-import Topcourses from '../components/Topcourses';
+import Featuredcourses from '../components/Featuredcourses';
 import Cards from '../components/Cards';
 import Courses from '../components/Courses';
 import Videobanner from '../components/Videobanner';
+import Eswiper from '../components/Eswiper';
+import FeaturedSlider from '../components/FeaturedSlider';
 
 
 
@@ -16,12 +18,13 @@ const index = () => {
       <Header/>
       <Categories/>
       <Newcourses/>
-      <Topcourses/>
+      <Featuredcourses/>
        {/* <Post/>
       <Courses/> */}
       <Cards/>
       <Videobanner/>
-  
+  <Eswiper/>
+  <FeaturedSlider/>
       
     </div>
   )

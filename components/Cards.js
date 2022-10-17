@@ -306,29 +306,7 @@ const Cards = () => {
                         </div>
                       </div>
                  </div>
-                <div  className="flex inline-flex h-96 w-full items-center max-w-6xl">
-                    <div className="relative bg-green-200">fdfd1 hfdjdkghjdfg jhjdhfjdhfkdjfhd </div>                
-                    <div className="relative bg-blue-200">fd hpigihghetw eh jkldh eipjtper f jhgl jdfd2</div>                
-                    <div className="relative bg-purple-200">w0iti tp5it-yo5iyeit-i e-ti3t[it[ro </div>                
-                    <div className="relative bg-gray-200">f kjitetjeitjeprjtiperujtijtpijepetjrp tjerp jtedfd4</div>                
-                    <div className="relative bg-pink-200">fde krjtertjer tjheiprjtepirjtprjtpe tjpyjetyjpte ye ty fd5</div>                
-                    <div className="relative bg-teal-200">fdf et;ykjet;yej;yjetkyejeohyoehy oejyketjkyjlky jeltyeyeye y yd6</div>                
-                    <div className="relative bg-cyan-200">fd gfjdlgdflgjdljgkjgldjgldfd7</div>                
                 
-                
-                {/* <ul>
-                  <li className="bg-green-100  ">kgj;h;f</li>  
-                  <li className="bg-blue-100 ">kgj;h;f</li>  
-                  <li className="bg-cyan-100 ">kgj;h;f</li>  
-                  <li className="bg-gray-100 ">kgj;h;f</li>  
-                  <li className="bg-purple-100 ">kgj;h;f</li>  
-                  <li className="bg-teal-100 ">kgj;h;f</li>  
-                  <li className="bg-rose-100 ">kgj;h;f</li>  
-                </ul> */}
-
-                </div>
-                            
-             
               </div>
  
 </section>  

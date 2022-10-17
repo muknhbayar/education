@@ -1,20 +1,30 @@
-import React from "react";
-const Newcourses = () => {
+import React from 'react';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from 'next/link';
+
+
+// import {faUmbrella, faShieldHeart, faPersonDrowning, faPeopleGroup, faRocket, faPeopleRobbery} from "@fortawesome/free-solid-svg-icons";
+
+
+const Featuredcourses = () => {
   return (
     <div>
-      <div className="container my-12 mx-auto">
+      <div className="container p-4 mx-auto">
         <section>
-          <div className="flex flex-grow justify-between md:ml-16 md:mr-16 ">
+          <div className="flex flex-grow justify-between">
             <span>
-              <h2 className="text-3xl md:pl-8 mb-8 font-cursive text-orange-500">               
-                Шинэ сургалтууд
+              <h2 className="text-3xl md:pl-8 font-cursive text-orange-500">               
+                Онцлох сургалтууд
               </h2>
-            </span>           
+            </span>
+            <span> <h2 className="text-md text-light mt-6 font-cursive text-blue-500 underline">
+                      <Link href="/lessons"> Бүх хичээл </Link> </h2>
+            </span>         
           </div>
 
           
-            <div className="flex flex-grow max-w-7xl gap-3 justify-between mx-auto grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 mt-6">
-              <div className="relative lg:mb-0 hover:shadow-[1px_1px_8px_2px_rgba(249,115,22,0.4)] rounded-xl shadow-gray-200 border border-[#f97316]/40 max-w-xs">
+            <div className="flex flex-grow md:max-w-7xl gap-3 md:justify-between w-full mx-auto grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 mt-6">
+              <div className="relative lg:mb-0 hover:shadow-[1px_1px_8px_2px_rgba(249,115,22,0.4)] rounded-xl shadow-gray-200 border border-[#f97316]/40">
                 <div className="mb-12 lg:mb-0">
                   <a href="/lesson/54">                    
                     <img
@@ -533,7 +543,9 @@ const Newcourses = () => {
         </section>
       </div>
     </div>
-  );
-};
+    
+       
+  )
+}
 
-export default Newcourses;
+export default Featuredcourses
