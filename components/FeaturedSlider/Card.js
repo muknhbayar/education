@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({teacher,courseImg,teacherImg,courseName,allVideos,view,duration,students}) => {
   return (
-    <div className="relative lg:mb-0 hover:shadow-[1px_1px_8px_2px_rgba(249,115,22,0.4)] rounded-xl shadow-gray-200 border border-[#f97316]/40">
+    <div className="relative lg:mb-0 hover:shadow-[1px_1px_8px_2px_rgba(249,115,22,0.4)] rounded-xl shadow-gray-200 border border-[#f97316]/40 h-[380px]">
     <div className="mb-12 lg:mb-0">
       <a href="/lesson/54">                    
         <img

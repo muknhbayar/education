@@ -4,7 +4,7 @@ import Link from "next/link";
 const Videobanner = () => {
   return (
     <div
-    className="text-center relative overflow-hidden bg-no-repeat bg-cover bg-fixed mb-32"
+    className="text-center relative overflow-hidden bg-no-repeat bg-cover bg-fixed"
     loading="lazy"
     style={{ backgroundImage: 'url("/assets/img/videobanner.jpg")', height: 400 }}
   >

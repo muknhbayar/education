@@ -33,9 +33,8 @@ const FeaturedSlider = () => {
               </h2>
             </span>
             <span>
-              {" "}
               <h2 className="text-md text-light mt-6 font-cursive text-blue-500 underline">
-                <Link href="/lessons"> Бүх хичээл </Link>{" "}
+                <Link href="/lessons"> Бүх хичээл </Link>
               </h2>
             </span>
           </div>
@@ -63,11 +62,11 @@ const FeaturedSlider = () => {
                 },
                 1024: {
                   slidesPerView: 4,
-                  spaceBetween: 20,
+                  spaceBetween: 15,
                 },
                 1280: {
                   slidesPerView: 5,
-                  spaceBetween: 30,
+                  spaceBetween: 20,
                 },
               }}
             >
@@ -94,68 +93,3 @@ const FeaturedSlider = () => {
 };
 
 export default FeaturedSlider;
-
-/**
- 
-
- <div className='container py-4 px-4 justify-center bg-dark'>
-     <Swiper
-        freeMode={true}
-        grabCursor={true}
-        navigation={true}
-        modules={[Navigation]}
-        className="mySwiper"
-        
-        breakpoints={{
-          0: {
-            slidesPerView:1,
-            spaceBetween:10
-          },
-          480:{
-            slidesPerView:2,
-            spaceBetween:10
-          },
-          768:{
-            slidesPerView:3,
-            spaceBetween:15
-          },
-          1024:{
-            slidesPerView:4,
-            spaceBetween:20
-          },
-          1280:{
-            slidesPerView:5,
-            spaceBetween:30
-          }
-        }}
-        
-     >
-     
-        <SwiperSlide>
-            <Card title="Мэдээлэлзүйн багш" name="Dugersuren" age={1} color={"red"}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card title="Мэдээлэлзүйн багш" name="Munkhbayar" age={2}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card title="Мэдээлэлзүйн багш" name="Ariunsarnai" age={3}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card title="Монгол хэлний багш" name="Khulan" age={12}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card title="Физикийн багш" name="Tsedenlkham" age={4}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card title="Монгол хэлний багш" name="Buyannemekh" age={5}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Card title="Нийгмийн ухааны багш" name="Odonjargal" age={6}/>
-        </SwiperSlide>
-
-        
-     </Swiper>
-    </div>
-
-
- */

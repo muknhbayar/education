@@ -17,14 +17,22 @@ const index = () => {
     <div>
       <Header/>
       <Categories/>
-      <Newcourses/>
-      <Featuredcourses/>
+      <div className="container md:px-20 md:mb-8">
+          <Eswiper/>
+      </div>
+      {/* <Newcourses/>
+      <Featuredcourses/> */}
        {/* <Post/>
       <Courses/> */}
-      <Cards/>
-      <Videobanner/>
-  <Eswiper/>
-  <FeaturedSlider/>
+      {/* <Cards/> */}
+      <div className="container md:mb-8" >
+          <Videobanner/>
+      </div>
+  
+      <div className="container md:px-20 md:mt-8">
+          <FeaturedSlider/>
+      </div>
+  
       
     </div>
   )
